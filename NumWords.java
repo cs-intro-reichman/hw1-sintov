@@ -5,6 +5,6 @@ public class NumWords {
 		int ones =  Math.floorMod(n, 10);
 		int tens = Math.floorMod(n/10, 10);
 		int hundreds = Math.floorMod(n/100, 10);
-		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones");
+		System.out.println(hundreds + " hundreds, " + tens + " tens, and " + ones + " ones.");
 	}
 }
