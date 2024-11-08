@@ -15,14 +15,14 @@ public class TimeFormat {
         // Replace this comment with the rest of your code
 		String time_of_day = "AM";
 		String outputminute = String.valueOf(minutes);
-		if (hours>12){
+		if (hours > 12){
 			hours = hours - 12;
 			time_of_day = "PM";
 		}
-		if (hours==12){
+		if (hours == 12){
 			time_of_day = "PM";
 		}
-		if (minutes<10){
+		if (minutes < 10){
 			outputminute = "0" + minutes;
 		}
 
